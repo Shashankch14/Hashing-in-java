@@ -1,10 +1,6 @@
 /*
 Check if there are any two Equal numbers in an array at a distance less than or equal to k
-Optimised Approach:- Instead of Running 2 Nested For loops, 
-we will create a Hashmap to Store the Occurences of the Elements which we have encountered in the past.
-At each index i, we will calculate the Required Element, = (arr[i]+k),
-we wil check if it is present in hashmap, we will do cnt = cnt + freq[requiredElement]. 
-We will update the frequency for current element in hashmap.
+
 
 */
 
